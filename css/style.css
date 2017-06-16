@@ -1,0 +1,71 @@
+h1{
+	color: red;
+}
+.green{
+	color: green;
+	font-style: 20px;
+}
+
+.bakrund{
+	 background-color: blue
+}
+.din-klass {
+	display: flex;
+	justify-content: center;
+}
+.bakrund{
+	background-color: #69400E;
+}
+.sida2{
+	color: #000000;
+}
+
+.index{
+	background-color: orange
+}
+.sida3{
+	color: orange;
+}
+
+.bakrund1{
+	background-color: red;
+}
+.bakrund2{
+	background-color: yellow;
+}
+.class:hover{
+	color: green;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #FFE919;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #FFE919;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: white;
+}
+
+a:hover{
+	color: orange;
+}
+
+.loggo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hej{
+	background-color: orange;
+}
+

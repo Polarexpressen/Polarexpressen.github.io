@@ -1,0 +1,71 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Spel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body class="bakrund">
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+             <img class="loggo" src="bilder/loggo.png">   <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+            <nav class="nav navbar-inverse navbar-static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">min spel sajt</a>
+                    <ul class="nav navbar-nav">
+                        <!-- Byt ut # i href mot filen som ska länkas till, tex djur.html -->
+                        <li><a href="menyval1.html">favorit spel</a></li>
+                        <li><a href="menyval2.html">favorit server</a></li>
+                        <li><a href="menyval3.html">scratch</a></li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+    <h1>Spel</h1>
+    <ul class="class">
+        <li class="sida2">Minecraft                    länk till nedladdning <a href="https://minecraft.net/sv-se/">Minecraft</a></li>
+        <li class="sida2">Roblox                       intenet spel länk till hemsidan  <a href="https://www.roblox.com/">Roblox</a></li>
+        <li class="sida2">Sim city                     steam spel</li>
+        <li class="sida2">Steam                        det är inte ett spel utan ett spel shop. länk till neddladning: <a href="http://store.steampowered.com/about/">Steam</a></li>
+        <li class="sida2">StarMade                     länk till nedladdning: <a href="http://www.star-made.org/">Starmade </a></li>
+        <li class="sida2">mincraft trailer</li>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MmB9b5njVbA" frameborder="0" allowfullscreen></iframe>
+        <li class="sida2">Roblox trailer</li>
+        <li class="sida2">det fanns inte någon bra Roblox trailer</li>
+        <li class="sida2">Sim city trailer</li>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SyIRsLoWTgA" frameborder="0" allowfullscreen></iframe>
+        <li class="sida2">Steam trailer</li>
+        <li class="sida2">det fanns inte någon bra steam trailer</li>
+        <li class="sida2">StarMade trailer</li>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7YyxsW_2xmo" frameborder="0" allowfullscreen></iframe>
+
+
+    </main>
+</body>
+</html>
