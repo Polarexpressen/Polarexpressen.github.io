@@ -81,3 +81,9 @@ a:hover{
 .Sida4{
 	font-size: 60px;
 }
+.TABS:hover{
+	color: green
+}
+.TABS{
+	color: yellow
+}
