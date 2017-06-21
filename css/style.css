@@ -79,7 +79,8 @@ a:hover{
 }
 
 .Sida4{
-	font-size: 60px;
+	color: green;
+	font-size: 40px;
 }
 .TABS:hover{
 	color: green
@@ -89,4 +90,9 @@ a:hover{
 }
 .fserver{
 	color: white;
+}
+
+.inte-klar{
+	color: red;
+	font-size: 60px;
 }
