@@ -96,3 +96,10 @@ a:hover{
 .kuber{
 	font-size: 40px;
 }
+
+.kub1234567{
+	color: blue;
+}
+.kub7654321:hover{
+	color: green;
+}
