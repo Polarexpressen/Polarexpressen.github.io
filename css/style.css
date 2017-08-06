@@ -1,5 +1,6 @@
 h1{
 	color: red;
+	font-style: 30px;
 }
 .green{
 	color: green;
@@ -108,4 +109,13 @@ a:hover{
 	color: green;
 }
 
+.länk{
+	color: red;
+}
+.länk:hover{
+	color: white
+}
 
+.ul{
+	color: green;ss
+}
