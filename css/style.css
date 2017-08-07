@@ -113,9 +113,12 @@ a:hover{
 	color: red;
 }
 .länk:hover{
-	color: white
+	color: white;
 }
 
 .ul{
-	color: green;ss
+	color: green;
+}
+.sida10000{
+	background-color: green;
 }
