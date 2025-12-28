@@ -34,6 +34,9 @@ h1{
 .bakrund2{
 	background-color: yellow;
 }
+.bakgrund3{
+	background-color: blue;
+}
 .class:hover{
 	color: green;
 }
